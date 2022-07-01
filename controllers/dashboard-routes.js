@@ -4,9 +4,9 @@ const { Post, User, Comment } = require('../models');
 const withAuth = require('../utils/auth')
 
 router.get('/', withAuth, (req, res) => {
-    Post.findAll({
-        where: {
-            // use the ID from the session
+  Post.findAll({
+    where: {
+      // use the ID from the session
             user_id: req.session.user_id
         },
         attributes: [
