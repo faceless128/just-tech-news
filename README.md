@@ -26,4 +26,4 @@ Deploy on a compatible platform like Heroku
 ![Screenshot](./screenshot.png)
 
 ## Demonstration
-Here is a [Live Demonstration](https://)
+Here is a [Live Demonstration](https://faceless-just-tech-news.herokuapp.com/)
